@@ -4,14 +4,14 @@
 - overflow sessions allow easy access to popular sessions
 - python serverless microframework= https://github.com/aws/chalice
 - talk to someone.. what is our physical implementation?
-    -- accounts vs VPCs
-    -- Direct Connect / Transit Gateway
-    -- how are we supposed to communicate between BSAs?
+    - accounts vs VPCs
+    - Direct Connect / Transit Gateway
+    - how are we supposed to communicate between BSAs?
 - **Idea:** series of sessions "Naive Polyglot: <session>"
-    -- Kubernetes getting started
-    -- Storage Types for the developer
-    -- AWS networking for the developers
-    -- Microservices and Mesh
+    - Kubernetes getting started
+    - Storage Types for the developer
+    - AWS networking for the developers
+    - Microservices and Mesh
 - AWS Systems Manager Session Manager provides access to EC2 without SSH keys
 - **can we use ASM for un/pw?**
 
@@ -34,8 +34,10 @@
 3. DynamoDB Deep Dive (DAT401) *Excellent NoSQL talk*
 
 # Terrible Sessions
-1. Deep Dive into S3 Security -- not much content
-2. Deep Dive into EFS -- spent more time on customer journey than technical
+1. Deep Dive into S3 Security 
+    - not much content
+2. Deep Dive into EFS
+    - spent more time on customer journey than technical
 
 # Great Articles (rando finds)
 
@@ -43,7 +45,7 @@
 - Resource Modeling: https://www.thoughtworks.com/insights/blog/rest-api-design-resource-modeling
 - Classic Intro to SOA: https://dannorth.net/classic-soa/
 
-# Request Signing
+# AWS Request Signing
 
 - https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html
 - "However, when you manually create HTTP requests to access AWS services, you must sign requests that require signing yourself."
